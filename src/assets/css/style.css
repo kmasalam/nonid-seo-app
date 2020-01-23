@@ -28,9 +28,9 @@
 @import url("bootstrap.min.css");
 @import url("font-awesome.min.css");
 /* @import url("owl.carousel.css"); */
-@import url("animate.css");
+/* @import url("animate.css"); */
 /* @import url("owl.theme.default.min.css"); */
-@import url("jquery.bxslider.min.css");
+/* @import url("jquery.bxslider.min.css"); */
 @import url("../plugins/nonid-icon/style.css");
 /*
 * 2. common styles
@@ -1703,7 +1703,7 @@ hr.style-one {
   height: 536px;
   position: relative;
   margin-top: -80px;
-  -webkit-animation-name: tesiMove;
+  /* -webkit-animation-name: tesiMove;
           animation-name: tesiMove;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
@@ -1714,7 +1714,7 @@ hr.style-one {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   -webkit-transform-origin: center center;
-          transform-origin: center center;
+          transform-origin: center center; */
 }
 @-webkit-keyframes tesiMove {
   0% {
@@ -1782,8 +1782,8 @@ hr.style-one {
   z-index: 10;
 }
 #testimonials-slider-pager .testi-icon:after, #testimonials-slider-pager .testi-icon:before {
-  width: 99px;
-  height: 99px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: #FF8257;
   position: absolute;

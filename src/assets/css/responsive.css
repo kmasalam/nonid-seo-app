@@ -529,6 +529,9 @@
         font-size: 40px;
         line-height: 55px;
     }
+    .inner-banner__title {
+        font-size: 30px;
+    }
 
 }
 
@@ -545,6 +548,20 @@
 
     .banner-one__home-two {
         padding-bottom: 150px;
+    }
+    #testimonials-slider-pager .testimonials-slider-pager-one .pager-item img {
+        width: 289px;
+    }
+    #testimonials-slider-pager {
+        width: 300px;
+        height: 400px;
+    }
+    #testimonials-slider-pager .testi-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .inner-banner__title {
+        font-size: 26px;
     }
 
 }
