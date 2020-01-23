@@ -55,7 +55,6 @@ class Navigation extends React.Component{
     }
     componentWillUnmount() {
         this._isMounted = false;
-        console.log('mout vals', this._isMounted);
     }
     scrollToTop = () => {
         scroll.scrollToTop();
