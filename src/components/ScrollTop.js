@@ -33,6 +33,7 @@ class ScrollTop extends React.Component{
 
     componentWillUnmount() {
         this._isMounted = false;
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     handleClick = (e) => {

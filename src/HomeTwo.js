@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Testimonial from './components/Testimonial';
 import Banner from './components/Banner2';
 import Navigation from './components/Navigation';
-import ScrollTop from './components/ScrollTop'
+import ScrollTop from './components/ScrollTop';
 import Brand from './components/Brand';
 
 class HomeTwo extends React.Component{

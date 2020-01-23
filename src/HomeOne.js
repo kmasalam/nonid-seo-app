@@ -12,11 +12,6 @@ import Navigation from './components/Navigation';
 import ScrollTop from './components/ScrollTop';
 import Brand from './components/Brand';
 
-let logoData = {
-    src: './assets/images/logo-1-1.png',
-    alt: 'Awesome Image',
-    to: '/'
-}
 class HomeOne extends React.Component{
     componentDidMount = () => {
         window.scrollTo(0, 0)

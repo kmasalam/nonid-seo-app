@@ -55,6 +55,7 @@ class Navigation extends React.Component{
     }
     componentWillUnmount() {
         this._isMounted = false;
+        window.removeEventListener('scroll', this.handleScroll);
     }
     scrollToTop = () => {
         scroll.scrollToTop();
@@ -70,7 +71,6 @@ class Navigation extends React.Component{
                 
                 <nav className="navbar navbar-expand-lg navbar-light header-navigation stricky">
                     <div className="container clearfix">
-                    {/* Brand and toggle get grouped for better mobile display */}
                     <div className="logo-box clearfix">
                         <DomLink to={process.env.PUBLIC_URL+logoData.to} className="navbar-brand" >
                             <img src={process.env.PUBLIC_URL+logoData.src} className="main-logo" alt={logoData.alt} />
@@ -78,8 +78,7 @@ class Navigation extends React.Component{
                         <button className="menu-toggler" onClick={this.handleMobileMenu} >
                             <span className="fa fa-bars" />
                         </button>
-                    </div>{/* /.logo-box */}
-                    {/* Collect the nav links, forms, and other content for toggling */}
+                    </div>
                     <div className={`main-navigation ${mobileMenu ? 'showen' : ''}`} style={mobileMenu ? {display: "block" } : {display: "none" }}>
                     <ul className='navigation-box one-page-scroll-menu'>
                         <li>
@@ -166,9 +165,8 @@ class Navigation extends React.Component{
                         <DomLink to='#!' className="header-one__btn">
                             Contact
                         </DomLink>
-                    </div>{/* /.right-side-box */}
                     </div>
-                    {/* /.container */}
+                    </div>
                 </nav>
                 
                 </header>
