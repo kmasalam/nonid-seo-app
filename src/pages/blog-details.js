@@ -84,7 +84,7 @@ class BlogDetails extends React.Component {
       
       return (
 
-          <div>
+          <div className='inner_page'>
             <BreadCrumb breadcrumbitem={dataItem} breadcrumbtitle={Blog.blogTitle}/>
             <Navigation />
             <section className="blog-details">
