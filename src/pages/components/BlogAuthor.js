@@ -4,7 +4,7 @@ const BlogAuthor = () =>{
     return(
         <div className="blog-details__author">
             <div className="blog-details__author-image">
-                <img src="../assets/images/author-1-1.jpg" alt="Awesome Image" />
+                <img src="../assets/images/author-1-1.jpg" alt="author image" />
             </div>
             <div className="blog-details__author-content">
                 <h3>Christine Eve</h3>

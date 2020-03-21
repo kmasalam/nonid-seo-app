@@ -41,7 +41,7 @@ class ScrollTop extends React.Component{
         
         var scrollStep = -window.scrollY / (this.props.scrollDuration / 15),
             scrollInterval = setInterval(function(){
-            if ( window.scrollY != 0 ) {
+            if ( window.scrollY !== 0 ) {
                 window.scrollBy( 0, scrollStep );
             }
             else clearInterval(scrollInterval); 

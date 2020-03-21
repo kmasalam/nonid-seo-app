@@ -10,7 +10,7 @@ import WidgetSocial from './footer-components/WidgetSocial';
 let footerBottomData = {
     footertext: '© copyright 2019 by ',
     companylink: '/',
-    companytext: 'Layerdrops.com',
+    companytext: 'themeroots.com',
 }
 
 const Footer = (props) => {
@@ -30,7 +30,7 @@ const Footer = (props) => {
             </div>
             <div className="site-footer__bottom-footer text-center">
                 <div className="container">
-                    <p>{footerBottomData.companytext}
+                    <p>{footerBottomData.footertext}
                         <Link to={footerBottomData.companylink}>{footerBottomData.companytext}</Link>
                     </p>
                 </div>

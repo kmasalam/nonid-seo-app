@@ -20,7 +20,10 @@ news & articles' BreakingNumber={23} />
                             <div className="blog-one__single">
                             <div className="blog-one__single-inner-block">
                             <div className="blog-one__date">{val.blogDate}</div>
-                            <a href="blog-details.html" className="blog-one__author">{val.blogAuthor}</a>
+                            
+                            <Link to={`/blog/${val.id}`}    className="blog-one__author">
+                                    <i className={val.blogAuthor} />
+                                </Link>
                             <h3 className="blog-one__title">
                                 <Link to={`/blog/${val.id}`}>
                                     {val.blogTitle}

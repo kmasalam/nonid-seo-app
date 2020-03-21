@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import BreadCrumb from '../components/BreadCrumb';
-import SingleBlog from '../components/SingleBlog';
 import Pagination from '../components/blog/Pagination';
 import Subscription from '../components/Subscription';
 import Footer from '../components/Footer';
