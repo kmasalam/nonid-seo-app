@@ -94,10 +94,10 @@ class Navigation extends React.Component{
                             </Link>
                             <ul className='sub-menu'>
                                 <li>
-                                    <DomLink to='/'>Home One</DomLink>
+                                    <DomLink to={`/`}>Home One</DomLink>
                                 </li>
                                 <li>
-                                    <DomLink to='/home-two'>Home Two</DomLink>
+                                    <DomLink to={`${process.env.PUBLIC_URL}/home-two`}>Home Two</DomLink>
                                 </li>
                             </ul>
                         </li>
@@ -150,10 +150,10 @@ class Navigation extends React.Component{
                             </Link>
                             <ul className='sub-menu'>
                                 <li>
-                                    <DomLink to='/blog'>Blog</DomLink>
+                                    <DomLink to={`${process.env.PUBLIC_URL}/blog`}>Blog</DomLink>
                                 </li>
                                 <li>
-                                    <DomLink to='blog/1'>
+                                    <DomLink to={`${process.env.PUBLIC_URL}/blog/1`}>
                                         Blog Details
                                     </DomLink>
                                 </li>
