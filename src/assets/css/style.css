@@ -556,6 +556,7 @@ footer,
   padding-top: 315px;
   padding-bottom: 147px;
   position: relative;
+  overflow: hidden;
 }
 .banner-one [class*="bubble-"] {
   position: absolute;
@@ -599,7 +600,7 @@ footer,
 .banner-one__moc {
   position: absolute;
   top: 245px;
-  right: 0;
+  right: -120px;
 }
 .banner-one .block-title {
   margin-bottom: 35px;

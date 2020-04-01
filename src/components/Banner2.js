@@ -26,7 +26,7 @@ const Banner = (props) => {
             
             <div className="container">
                 <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-5">
                     <div className="banner-one__content">
                     <SectionTitle TitleAlignment='' TitleData='Boost your web traffic & rank with nonid' BreakingNumber={0} />
                         <p className="banner-one__text">{bannerContent.bannerText}</p>

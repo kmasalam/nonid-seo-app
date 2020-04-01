@@ -70,10 +70,6 @@ export const CtaTwo = (props) => {
                     )
                 })
             }
-            {/* <img src="images/banner-icon-1-2.png" alt="Awesome Image" className="bubble-1" />
-            <img src="images/banner-icon-1-6.png" alt="Awesome Image" className="bubble-2" />
-            <img src="images/banner-icon-1-3.png" alt="Awesome Image" className="bubble-3" />
-            <img src="images/cta-moc-1-2.png" alt="Awesome Image" className="cta-two__moc" /> */}
             <div className="container">
                 <hr />
                 <div className="row">

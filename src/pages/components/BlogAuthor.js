@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BlogAuthor = () =>{
+const BlogAuthor = (e) =>{
     return(
         <div className="blog-details__author">
             <div className="blog-details__author-image">
-                <img src="../assets/images/author-1-1.jpg" alt="author image" />
+                <img src="../assets/images/author-1-1.jpg" alt='' />
             </div>
             <div className="blog-details__author-content">
                 <h3>Christine Eve</h3>

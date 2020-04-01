@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Pagination = (props) => {
     return(
@@ -6,14 +7,14 @@ const Pagination = (props) => {
                 <a className="prev" href="#">
                     <i className="fa fa-arrow-left" />
                 </a>
-                        <a className="active" href="#">01</a>
-                        <a href="#">02</a>
-                        <a href="#">03</a>
-                        <a href="#">04</a>
-                        <a href="#">05</a>
-                        <a className="next" href="#">
+                        <Link  className="active" to="#">01</Link>
+                        <Link to="#">02</Link>
+                        <Link to="#">03</Link>
+                        <Link to="#">04</Link>
+                        <Link to="#">05</Link>
+                        <Link className="next" to="#">
                             <i className="fa fa-arrow-right" />
-                        </a>
+                        </Link>
                 </div>
     )
 }
